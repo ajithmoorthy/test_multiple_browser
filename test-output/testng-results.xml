@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="66779" started-at="2019-10-22T13:28:06Z" finished-at="2019-10-22T13:29:13Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="66779" started-at="2019-10-22T13:28:06Z" finished-at="2019-10-22T13:29:13Z">
+      <class name="com.atmecs.csslocators.testscripts.MultipleTest">
+        <test-method status="PASS" signature="xmlsuite()[pri:0, instance:com.atmecs.csslocators.testscripts.MultipleTest@46d56d67]" name="xmlsuite" duration-ms="66701" started-at="2019-10-22T13:28:06Z" finished-at="2019-10-22T13:29:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- xmlsuite -->
+      </class> <!-- com.atmecs.csslocators.testscripts.MultipleTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

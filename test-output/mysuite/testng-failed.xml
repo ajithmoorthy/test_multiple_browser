@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [mysuite]" parallel="tests">
+  <test thread-count="5" name="Test Search Item and validate(failed)" parallel="tests">
+    <parameter name="Name" value="CHROME"/>
+    <classes>
+      <class name="com.atmecs.csslocators.testscripts.TestVerifyRedbus">
+        <methods>
+          <include name="tearDown"/>
+          <include name="endReport"/>
+          <include name="startReport"/>
+          <include name="baseSetup"/>
+          <include name="verifyRedbus"/>
+        </methods>
+      </class> <!-- com.atmecs.csslocators.testscripts.TestVerifyRedbus -->
+    </classes>
+  </test> <!-- Test Search Item and validate(failed) -->
+</suite> <!-- Failed suite [mysuite] -->
